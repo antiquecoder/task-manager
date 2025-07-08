@@ -2,24 +2,51 @@
 <html>
   <head>
     <title>Task Manager App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   </head>
   <body>
     <aside>
-      <h2>Deon Thomas</h2>
+      <div class="user-profile">
+        <img src="images/a person standing on.png">
+        <span>Deon Thomas</span>
+      </div>
       <button class="add-task"> + add Task</button>
-      <input class="search-bar "type="text" placeholder="search-bar">
+      <input class="search-bar "type="text" placeholder="Search">
+      <hr>
       <nav class="sidebar-nav">
-      <button class="inbox">inbox</button>
-      <button class="today">today</button>
-      <button class="upcoming">upcoming</button>
+      <button class="inbox">
+      <i class="fa-solid fa-inbox"></i>
+        inbox
+      </button>
+      <button class="today">
+      <i class="fa-regular fa-calendar"></i>
+        today</button>
+      <button class="upcoming">
+        <i class="fa-regular fa-clock">  
+        </i>upcoming</button>
+        <hr>
+      <button class="filter">
+       <i class="fa-solid fa-filter"></i>
+         Filter&labels
+      </button>
       </nav>
 
   <section class="labels">
-       <h3>Filters & Labels</h3>
+     <h3 class="label-heading">My projects</h3>
       <ul>
-        <li>#work</li>
-        <li>#personal</li>
-        <li>#urgent</li>
+        <li>work</li>
+        <li>personal</li>
+        <li>urgent</li>
+      </ul>
+  </section>
+  
+  <section class="my-projects">
+     <h3 class="project-heading">Team projects</h3>
+      <ul>
+        <li>website roadmap</li>
+        <li>product roadmap</li>
       </ul>
   </section>
  </aside>
@@ -37,11 +64,14 @@
      <section class="team-projects">
       <h2>team projects</h2>
       <button>add task</button>
-      <ul>task1</ul>
-      <ul>task2  </ul>
-      <ul>task3</ul>
+      <ul>
+        <li>task1</li>
+        <li>task2</li>
+        <li>task3</li>
+      </ul>
     </section>
   </main>
+  
 
    
     

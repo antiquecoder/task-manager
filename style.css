@@ -1,0 +1,96 @@
+.add-task{
+  background-color: rgb(16, 107, 199);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  padding-right: 108px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.search-bar{
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 8px;
+}
+.user-profile{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px;
+}
+
+.user-profile img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-profile span {
+  font-weight: 600;
+  font-size: 14px;
+  color: black;
+}
+
+.sidebar-nav button {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* space between icon and text */
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
+
+
+hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 16px 0;
+  width: 29%;
+}
+
+.sidebar-nav i {
+  font-size: 16px;       
+  color: #444;           
+  display: inline-block; 
+  margin-right: 4px;  
+}
+
+.labels {
+  color: blue;
+  display: block;
+
+}
+.label-heading {
+  color: black;
+  padding-left: 8px;
+}
+
+.project-heading {
+  color: black;
+  padding-left: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
