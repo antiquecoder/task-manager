@@ -112,6 +112,7 @@ main h2 {
 }
 
 main section button {
+ 
   background-color: #4f46e5;
   color: #fff;
   border: none;
@@ -139,6 +140,32 @@ main li {
   color: #333;
 
 }
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 8px;
+
+}
+
+.section-header h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.section-header button {
+  background-color: #4f46e5;
+  color:  #fff;
+  border:none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+
 
 
 
