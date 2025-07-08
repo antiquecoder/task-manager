@@ -175,6 +175,15 @@ aside {
   font-size: 13px;
 }
 
+button:hover {
+  background-color: #3b82f6;
+}
+li:hover {
+  background-color: #f3f4f6;
+  cursor: pointer;
+}
+
+
 
 
 
